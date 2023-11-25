@@ -1,12 +1,46 @@
 # IDS 706 Data Engineering Week 11 Individual Project 3
 
-## Purpose of the project
+## Overview of Project
 
-The purpose of this week's individual project is to utilize Databricks platform and Spark to empower the ability of ETL Big data.
+This individual project is to utilize Databricks to build a data pipeline.
 
-## Setting up the infrastructure
+Databricks Architecture:
 
-## Databricks Work Flow
+![databricks structure](image.png)
+
+Deme Video 
+
+## Goal
+* Creat a data ETL pipeline using Databricks
+* Store the data in Delta Lake
+* Utilize Spark SQL for data transforations
+* Provide data visualizations of the transformed data
+* create an automated trigger to initiate the pipeline
+
+## Dataset
+The dataset is composed of 266 countries' 1965-2015 years population growth in annual percentage. You can access the data from the following URL: [population.csv] https://raw.githubusercontent.com/Kay1223/Population-Model/master/populationCR.csv
+
+## File Structure in the repository are:
+
+```bash
+.
+├── Dockerfile
+├── LICENSE
+├── Makefile
+├── README.md
+├── data
+│   └── population.csv
+├── image.png
+├── main.py
+├── mylib
+│   ├── __init__.py
+│   ├── extract.py
+│   ├── query_viz.py
+│   └── transform_load.py
+├── requirements.txt
+├── test_main.py
+└── trigger.py
+```
 
 ## Load Data
 

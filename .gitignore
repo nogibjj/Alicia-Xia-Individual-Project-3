@@ -4,6 +4,7 @@ summarizeApp
 test_trainer/
 
 #ignore pytorch artifacts
+data
 model.pth
 
 # Byte-compiled / optimized / DLL files
@@ -135,3 +136,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+*.html
