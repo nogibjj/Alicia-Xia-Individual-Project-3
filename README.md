@@ -41,14 +41,9 @@ The dataset is composed of 266 countries' 1965-2015 years population growth in a
 ├── test_main.py
 └── trigger.py
 ```
+## Create a workflow in Databricks
 
-## Load Data
-
-## Extract Data
-
-## Tranform Data
-
-## Viz
+![Alt text](<Screenshot 2023-11-25 at 1.28.01 AM.png>)
 
 
 
