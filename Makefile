@@ -22,4 +22,4 @@ deploy:
 all: install lint test format deploy
 
 job:
-	python run_job.py
+	python trigger.py
